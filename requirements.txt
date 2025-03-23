@@ -1,0 +1,4 @@
+# Basic dependencies for the project
+# Add more dependencies as needed 
+jira==3.5.2
+python-dotenv==1.0.1 
