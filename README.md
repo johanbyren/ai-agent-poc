@@ -46,3 +46,26 @@ python src/main.py
 - `requirements.txt`: Project dependencies
 - `dev-start.sh`: Development startup script (sets up and activates environment)
 - `start.sh`: Quick run script (when environment is already set up)
+
+## Running Tests
+
+### AI Service Test
+To test the AI service functionality:
+
+1. Make sure you have set up your environment variables in `.env`:
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
+
+2. Run the AI service test:
+```bash
+python test-files/test_ai_service.py
+```
+
+This test will:
+- Create a sample task (counter feature)
+- Use the AI service to analyze the task
+- Generate potential code changes
+- Display the results
+
+The test output will show you how the AI service analyzes tasks and generates code changes.

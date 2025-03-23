@@ -1,4 +1,6 @@
 # Basic dependencies for the project
 # Add more dependencies as needed 
 jira==3.5.2
-python-dotenv==1.0.1 
+python-dotenv==1.0.1
+google-generativeai>=0.3.2
+PyGithub>=1.55 
